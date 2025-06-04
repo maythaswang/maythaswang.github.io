@@ -11,6 +11,9 @@
     <loc>https://maythaswang.github.io/posts/003_texture_patisserie/</loc>
     <lastmod>2025-05-02T22:12:31+07:00</lastmod>
   </url><url>
+    <loc>https://maythaswang.github.io/posts/004_image_gallery_builder/</loc>
+    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
+  </url><url>
     <loc>https://maythaswang.github.io/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
     <xhtml:link
@@ -41,16 +44,6 @@
   </url><url>
     <loc>https://maythaswang.github.io/posts/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://maythaswang.github.io/ja/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maythaswang.github.io/posts/"
-                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/realtime/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>

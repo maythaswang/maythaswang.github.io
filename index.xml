@@ -29,5 +29,13 @@
       <guid>https://maythaswang.github.io/posts/003_texture_patisserie/</guid>
       <description>Blender Add-on for streamling the process of baking and exporting PBR textures.</description>
     </item>
+    <item>
+      <title>Image Gallery Builder - Simple Scene Building tool for OpenGL</title>
+      <link>https://maythaswang.github.io/posts/004_image_gallery_builder/</link>
+      <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/posts/004_image_gallery_builder/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This educational project focuses on the topic of &lt;strong&gt;rendering optimization&lt;/strong&gt; through &lt;strong&gt;batching draw calls&lt;/strong&gt; in a Custom &lt;strong&gt;OpenGL Rasterization Engine&lt;/strong&gt; using &lt;strong&gt;Blinn-Phong&lt;/strong&gt; Shading model. I developed an image gallery &lt;strong&gt;scene building tool&lt;/strong&gt; that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports &lt;strong&gt;material-based batching&lt;/strong&gt; allowing up to &lt;strong&gt;32 materials&lt;/strong&gt; to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

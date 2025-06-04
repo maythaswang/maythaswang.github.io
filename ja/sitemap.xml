@@ -2,32 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maythaswang.github.io/ja/</loc>
-    <lastmod>2025-06-02T22:12:31+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maythaswang.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://maythaswang.github.io/ja/"
-                />
-  </url><url>
-    <loc>https://maythaswang.github.io/ja/posts/</loc>
-    <lastmod>2025-06-02T22:12:31+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maythaswang.github.io/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://maythaswang.github.io/ja/posts/"
-                />
-  </url><url>
     <loc>https://maythaswang.github.io/ja/archives/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,6 +12,18 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://maythaswang.github.io/ja/archives/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/"
                 />
   </url><url>
     <loc>https://maythaswang.github.io/ja/categories/</loc>
