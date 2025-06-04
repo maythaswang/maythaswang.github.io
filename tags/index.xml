@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Squidev-Blog</title>
-    <link>https://squidev.github.io/tags/</link>
-    <description>Recent content in Tags on Squidev-Blog</description>
+    <title>Tags on Blog</title>
+    <link>https://maythaswang.github.io/tags/</link>
+    <description>Recent content in Tags on Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
     <lastBuildDate>Mon, 02 Jun 2025 22:12:31 +0700</lastBuildDate>
-    <atom:link href="https://squidev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maythaswang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Environment</title>
-      <link>https://squidev.github.io/tags/environment/</link>
+      <link>https://maythaswang.github.io/tags/environment/</link>
       <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/environment/</guid>
+      <guid>https://maythaswang.github.io/tags/environment/</guid>
       <description></description>
     </item>
     <item>
       <title>HLSL</title>
-      <link>https://squidev.github.io/tags/hlsl/</link>
+      <link>https://maythaswang.github.io/tags/hlsl/</link>
       <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/hlsl/</guid>
+      <guid>https://maythaswang.github.io/tags/hlsl/</guid>
       <description></description>
     </item>
     <item>
       <title>Niagara</title>
-      <link>https://squidev.github.io/tags/niagara/</link>
+      <link>https://maythaswang.github.io/tags/niagara/</link>
       <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/niagara/</guid>
+      <guid>https://maythaswang.github.io/tags/niagara/</guid>
       <description></description>
     </item>
     <item>
       <title>Particle System</title>
-      <link>https://squidev.github.io/tags/particle-system/</link>
+      <link>https://maythaswang.github.io/tags/particle-system/</link>
       <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/particle-system/</guid>
+      <guid>https://maythaswang.github.io/tags/particle-system/</guid>
       <description></description>
     </item>
     <item>
       <title>Post-Processing</title>
-      <link>https://squidev.github.io/tags/post-processing/</link>
+      <link>https://maythaswang.github.io/tags/post-processing/</link>
       <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/post-processing/</guid>
+      <guid>https://maythaswang.github.io/tags/post-processing/</guid>
       <description></description>
     </item>
     <item>
       <title>RealTime</title>
-      <link>https://squidev.github.io/tags/realtime/</link>
+      <link>https://maythaswang.github.io/tags/realtime/</link>
       <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/realtime/</guid>
+      <guid>https://maythaswang.github.io/tags/realtime/</guid>
       <description></description>
     </item>
     <item>
       <title>Unreal Engine 5</title>
-      <link>https://squidev.github.io/tags/unreal-engine-5/</link>
+      <link>https://maythaswang.github.io/tags/unreal-engine-5/</link>
       <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/unreal-engine-5/</guid>
+      <guid>https://maythaswang.github.io/tags/unreal-engine-5/</guid>
       <description></description>
     </item>
     <item>
       <title>Compute Shaders</title>
-      <link>https://squidev.github.io/tags/compute-shaders/</link>
+      <link>https://maythaswang.github.io/tags/compute-shaders/</link>
       <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/compute-shaders/</guid>
+      <guid>https://maythaswang.github.io/tags/compute-shaders/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenGL</title>
-      <link>https://squidev.github.io/tags/opengl/</link>
+      <link>https://maythaswang.github.io/tags/opengl/</link>
       <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/opengl/</guid>
+      <guid>https://maythaswang.github.io/tags/opengl/</guid>
       <description></description>
     </item>
     <item>
       <title>Add-On</title>
-      <link>https://squidev.github.io/tags/add-on/</link>
+      <link>https://maythaswang.github.io/tags/add-on/</link>
       <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/add-on/</guid>
+      <guid>https://maythaswang.github.io/tags/add-on/</guid>
       <description></description>
     </item>
     <item>
       <title>Blender</title>
-      <link>https://squidev.github.io/tags/blender/</link>
+      <link>https://maythaswang.github.io/tags/blender/</link>
       <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/blender/</guid>
+      <guid>https://maythaswang.github.io/tags/blender/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>https://squidev.github.io/tags/tools/</link>
+      <link>https://maythaswang.github.io/tags/tools/</link>
       <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/tags/tools/</guid>
+      <guid>https://maythaswang.github.io/tags/tools/</guid>
       <description></description>
     </item>
   </channel>

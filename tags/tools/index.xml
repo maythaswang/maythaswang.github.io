@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tools on Squidev-Blog</title>
-    <link>https://squidev.github.io/tags/tools/</link>
-    <description>Recent content in Tools on Squidev-Blog</description>
+    <title>Tools on Blog</title>
+    <link>https://maythaswang.github.io/tags/tools/</link>
+    <description>Recent content in Tools on Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 May 2025 22:12:31 +0700</lastBuildDate>
-    <atom:link href="https://squidev.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maythaswang.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Texture Patisserie - Blender Texture Baking Addon</title>
-      <link>https://squidev.github.io/posts/003_texture_patisserie/</link>
+      <link>https://maythaswang.github.io/posts/003_texture_patisserie/</link>
       <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
-      <guid>https://squidev.github.io/posts/003_texture_patisserie/</guid>
+      <guid>https://maythaswang.github.io/posts/003_texture_patisserie/</guid>
       <description>Blender Add-on for streamling the process of baking and exporting PBR textures.</description>
     </item>
   </channel>

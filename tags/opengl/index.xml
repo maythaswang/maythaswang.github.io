@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>OpenGL on Squidev-Blog</title>
-    <link>https://squidev.github.io/tags/opengl/</link>
-    <description>Recent content in OpenGL on Squidev-Blog</description>
+    <title>OpenGL on Blog</title>
+    <link>https://maythaswang.github.io/tags/opengl/</link>
+    <description>Recent content in OpenGL on Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
     <lastBuildDate>Mon, 02 Jun 2025 22:11:31 +0700</lastBuildDate>
-    <atom:link href="https://squidev.github.io/tags/opengl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maythaswang.github.io/tags/opengl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simulating the Cosmos - N Body Simulation</title>
-      <link>https://squidev.github.io/posts/001_n-body-simulation/</link>
+      <link>https://maythaswang.github.io/posts/001_n-body-simulation/</link>
       <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
-      <guid>https://squidev.github.io/posts/001_n-body-simulation/</guid>
+      <guid>https://maythaswang.github.io/posts/001_n-body-simulation/</guid>
       <description>Realtime Gravitational N-body simualtor with full OpenGL graphics pipeline accelerated with GLSL compute shader.</description>
     </item>
   </channel>

@@ -2,66 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://squidev.github.io/ja/posts/</loc>
+    <loc>https://maythaswang.github.io/ja/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://squidev.github.io/posts/"
+                href="https://maythaswang.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://squidev.github.io/ja/posts/"
+                href="https://maythaswang.github.io/ja/"
                 />
   </url><url>
-    <loc>https://squidev.github.io/ja/</loc>
+    <loc>https://maythaswang.github.io/ja/posts/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://squidev.github.io/"
+                href="https://maythaswang.github.io/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://squidev.github.io/ja/"
+                href="https://maythaswang.github.io/ja/posts/"
                 />
   </url><url>
-    <loc>https://squidev.github.io/ja/archives/</loc>
+    <loc>https://maythaswang.github.io/ja/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://squidev.github.io/archives/"
+                href="https://maythaswang.github.io/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://squidev.github.io/ja/archives/"
+                href="https://maythaswang.github.io/ja/archives/"
                 />
   </url><url>
-    <loc>https://squidev.github.io/ja/categories/</loc>
+    <loc>https://maythaswang.github.io/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://squidev.github.io/categories/"
+                href="https://maythaswang.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://squidev.github.io/ja/categories/"
+                href="https://maythaswang.github.io/ja/categories/"
                 />
   </url><url>
-    <loc>https://squidev.github.io/ja/tags/</loc>
+    <loc>https://maythaswang.github.io/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://squidev.github.io/tags/"
+                href="https://maythaswang.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://squidev.github.io/ja/tags/"
+                href="https://maythaswang.github.io/ja/tags/"
                 />
   </url>
 </urlset>
