@@ -6,10 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Image Gallery Builder - Simple Scene Building tool for OpenGL | Blog</title>
-<meta name="keywords" content="">
-<meta name="description" content="Abstract
-This educational project focuses on the topic of rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. I developed an image gallery scene building tool that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports material-based batching allowing up to 32 materials to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.">
-<meta name="author" content="">
+<meta name="keywords" content="OpenGL, Optimization, Tools">
+<meta name="description" content="Perform rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. Designed for an image gallery scene building tool.">
+<meta name="author" content="Maythas Wangcharoenwong">
 <link rel="canonical" href="https://maythaswang.github.io/posts/004_image_gallery_builder/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maythaswang.github.io/favicon.ico">
@@ -50,16 +49,20 @@ This educational project focuses on the topic of rendering optimization through 
 <meta property="og:url" content="https://maythaswang.github.io/posts/004_image_gallery_builder/">
   <meta property="og:site_name" content="Blog">
   <meta property="og:title" content="Image Gallery Builder - Simple Scene Building tool for OpenGL">
-  <meta property="og:description" content="Abstract This educational project focuses on the topic of rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. I developed an image gallery scene building tool that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports material-based batching allowing up to 32 materials to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.">
+  <meta property="og:description" content="Perform rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. Designed for an image gallery scene building tool.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-05-02T22:12:31+07:00">
     <meta property="article:modified_time" content="2025-05-02T22:12:31+07:00">
-<meta name="twitter:card" content="summary">
+    <meta property="article:tag" content="OpenGL">
+    <meta property="article:tag" content="Optimization">
+    <meta property="article:tag" content="Tools">
+    <meta property="og:image" content="https://maythaswang.github.io/004_image_gallery_builder/thumbnail.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://maythaswang.github.io/004_image_gallery_builder/thumbnail.webp">
 <meta name="twitter:title" content="Image Gallery Builder - Simple Scene Building tool for OpenGL">
-<meta name="twitter:description" content="Abstract
-This educational project focuses on the topic of rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. I developed an image gallery scene building tool that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports material-based batching allowing up to 32 materials to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.">
+<meta name="twitter:description" content="Perform rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. Designed for an image gallery scene building tool.">
 
 
 <script type="application/ld+json">
@@ -88,15 +91,19 @@ This educational project focuses on the topic of rendering optimization through 
   "@type": "BlogPosting",
   "headline": "Image Gallery Builder - Simple Scene Building tool for OpenGL",
   "name": "Image Gallery Builder - Simple Scene Building tool for OpenGL",
-  "description": "Abstract This educational project focuses on the topic of rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. I developed an image gallery scene building tool that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports material-based batching allowing up to 32 materials to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.\n",
+  "description": "Perform rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. Designed for an image gallery scene building tool.",
   "keywords": [
-    
+    "OpenGL", "Optimization", "Tools"
   ],
-  "articleBody": "Abstract This educational project focuses on the topic of rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. I developed an image gallery scene building tool that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports material-based batching allowing up to 32 materials to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.\nRepository: Image Gallery Builder\nImplementation overview In this project, I have written 2 separated libraries for internal use. The batching logic will utilizes modules under the simple_scene library as well as the base program.\nCustom Libraries lin_alg This library provides basic functionalities for linear algebra math and graphics work such as calculating MVP matrices, custom matrix and vector types.\nsimple_scene This library provides modules such as Camera, Light, Material, Shader, Texture, and modules requied for batching draw calls.\nLoading User Input Batching Logic Simplified flow of Loading and Assigning textures When loading up a scene, the texture will be loaded into the Batch manager. The batch manager will then generate the texture and assign them IDs based on the capacity of each batch. The texture is then assigned to the newly created material for the scene. For each mesh using this material, they will have the same material ID assigned to them. ※ Note that for all default, non-user defined textures also follows this logic.\nBatching meshes Meshes with the same Material will be sent to the same batches stored under a vector. Before the scene drawing loop starts, each batches will undergo a stage called, build scene. During this stage, each mesh’s vertices, normals, texture coordinates, material ids information are combined and built into separated buffers Point light positions and material ids are also batched to be sent via uniforms. Draw Loop Each batch binds the buffers of mesh information such as vertex and normals. Send in Light and material data as uniforms and bind textures that is used in the batch’s material to the correct slot. The texture, material, mesh information is then used in the vertex and fragment shaders to draw the scene using blinn-phong shading model. The scene then proceeds to the next batch until all batches are drawn once Afterwards the draw loop starts again. ",
-  "wordCount" : "396",
+  "articleBody": "Abstract This project focuses on the topic of rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. I developed an image gallery scene building tool that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports material-based batching allowing up to 32 materials to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.\nRepository: Image Gallery Builder\nImplementation overview This project can be separated into 2 main components:\nBase Program: Handles rendering loop, user, inputs, batching logic. Custom Libraries: Handles scene management and math Base Program Loading Scene Data The program reads the scene data in a state machine-esque way meaning, apart form the image function, other function setup will stay inside the registry until a new setting is defined.\ndimension 5 5\rindex 0 0\rlight 1 wall 1 0 1 1\rimage_top 0.jpg\rimage_left 1.jpg\rimage_right 2.jpg\rbuild_room Batching Logic Simplified flow of Loading and Assigning textures When loading up a scene, the textures will passed into the Batch manager one by one. The textures are assigned Unique IDs based on the batch’s capacity. Material are then created with the texture_id assigned as well as setup for specular, diffuse, ambient, shininess, and is_emittor field for use in Blinn-Phong shading model. Each mesh in the scene is then assigned with the generated material_id. ※ Note that for all default, non-user defined textures also follows this logic.\nBatching meshes Meshes using the same Material will be sent to the same batches Before the scene drawing loop routine begins, each batches will undergo a build stage. All Mesh data (vertices, normal, UV coordinates, material_id) in the scene are combined and stored in the same buffer based on mesh data types. Light information and material information are prepared for use as uniforms. Draw Loop For each batch\nBind mesh information (vertex, normals, UVs, material_id) buffers. Upload point light and material data as uniforms. Bind textures to the texture unit. The texture can now be used in the fragment shader using the texture_id stored inside the material_id. Use vertex and fragment shaders to render the scene with Blinn-Phong shading model. Repeat until all batches are drawn then proceeds to the next frame Custom Libraries 1. lin_alg A lightweighted math library for\nCustom matrix and vector types. MVP (Model View Projection) matrix calculations Basic linear algebra functions for graphics programming application such as translate, scale, rotate 2. simple_scene A scene management and OpenGL wrapper library providing\nScene Components: Camera, Light, Material, Texture, Shader management logic. ",
+  "wordCount" : "443",
   "inLanguage": "en",
-  "datePublished": "2025-05-02T22:12:31+07:00",
+  "image":"https://maythaswang.github.io/004_image_gallery_builder/thumbnail.webp","datePublished": "2025-05-02T22:12:31+07:00",
   "dateModified": "2025-05-02T22:12:31+07:00",
+  "author":[{
+    "@type": "Person",
+    "name": "Maythas Wangcharoenwong"
+  }],
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://maythaswang.github.io/posts/004_image_gallery_builder/"
@@ -176,10 +183,19 @@ This educational project focuses on the topic of rendering optimization through 
     <h1 class="post-title entry-hint-parent">
       Image Gallery Builder - Simple Scene Building tool for OpenGL
     </h1>
-    <div class="post-meta"><span title='2025-05-02 22:12:31 +0700 +07'>May 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;396 words
+    <div class="post-description">
+      Perform rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. Designed for an image gallery scene building tool.
+    </div>
+    <div class="post-meta"><span title='2025-05-02 22:12:31 +0700 +07'>May 2, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;443 words&nbsp;·&nbsp;Maythas Wangcharoenwong
 
 </div>
-  </header> <div class="toc">
+  </header> 
+<figure class="entry-cover">
+        <a href="https://maythaswang.github.io/004_image_gallery_builder/thumbnail.webp" target="_blank" rel="noopener noreferrer">
+        <img loading="eager" src="https://maythaswang.github.io/004_image_gallery_builder/thumbnail.webp" alt="Bake Screen">
+        </a>
+        
+</figure><div class="toc">
     <details >
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">Table of Contents</span>
@@ -190,9 +206,9 @@ This educational project focuses on the topic of rendering optimization through 
     <li><a href="#abstract">Abstract</a></li>
     <li><a href="#implementation-overview">Implementation overview</a>
       <ul>
-        <li><a href="#custom-libraries">Custom Libraries</a></li>
-        <li><a href="#loading-user-input">Loading User Input</a></li>
+        <li><a href="#base-program">Base Program</a></li>
         <li><a href="#batching-logic">Batching Logic</a></li>
+        <li><a href="#custom-libraries">Custom Libraries</a></li>
       </ul>
     </li>
   </ul>
@@ -202,39 +218,66 @@ This educational project focuses on the topic of rendering optimization through 
 </div>
 
   <div class="post-content"><h2 id="abstract">Abstract<a hidden class="anchor" aria-hidden="true" href="#abstract">#</a></h2>
-<p>This educational project focuses on the topic of <strong>rendering optimization</strong> through <strong>batching draw calls</strong> in a Custom <strong>OpenGL Rasterization Engine</strong> using <strong>Blinn-Phong</strong> Shading model. I developed an image gallery <strong>scene building tool</strong> that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports <strong>material-based batching</strong> allowing up to <strong>32 materials</strong> to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.</p>
+<p>This project focuses on the topic of <strong>rendering optimization</strong> through <strong>batching draw calls</strong> in a Custom <strong>OpenGL Rasterization Engine</strong> using <strong>Blinn-Phong</strong> Shading model. I developed an image gallery <strong>scene building tool</strong> that parses the scene data files and renders the environment, allow the camera to move freely around the scene. The engine supports <strong>material-based batching</strong> allowing up to <strong>32 materials</strong> to be grouped per draw call. Any mesh that uses the same material will be effectively batched together to reduce overhead and improve performance.</p>
 <p>Repository: <a href="https://github.com/maythaswang/image_gallery_builder">Image Gallery Builder</a></p>
 <h2 id="implementation-overview">Implementation overview<a hidden class="anchor" aria-hidden="true" href="#implementation-overview">#</a></h2>
-<p>In this project, I have written 2 separated libraries for internal use. The batching logic will utilizes modules under the simple_scene library as well as the base program.</p>
-<h3 id="custom-libraries">Custom Libraries<a hidden class="anchor" aria-hidden="true" href="#custom-libraries">#</a></h3>
-<h4 id="lin_alg">lin_alg<a hidden class="anchor" aria-hidden="true" href="#lin_alg">#</a></h4>
-<p>This library provides basic functionalities for linear algebra math and graphics work such as calculating MVP matrices, custom matrix and vector types.</p>
-<h4 id="simple_scene">simple_scene<a hidden class="anchor" aria-hidden="true" href="#simple_scene">#</a></h4>
-<p>This library provides modules such as Camera, Light, Material, Shader, Texture, and modules requied for batching draw calls.</p>
-<h3 id="loading-user-input">Loading User Input<a hidden class="anchor" aria-hidden="true" href="#loading-user-input">#</a></h3>
-<h3 id="batching-logic">Batching Logic<a hidden class="anchor" aria-hidden="true" href="#batching-logic">#</a></h3>
+<p>This project can be separated into 2 main components:</p>
+<ol>
+<li><strong>Base Program:</strong> Handles rendering loop, user, inputs, batching logic.</li>
+<li><strong>Custom Libraries:</strong> Handles scene management and math</li>
+</ol>
+<h3 id="base-program">Base Program<a hidden class="anchor" aria-hidden="true" href="#base-program">#</a></h3>
+<h4 id="loading-scene-data">Loading Scene Data<a hidden class="anchor" aria-hidden="true" href="#loading-scene-data">#</a></h4>
+<p>The program reads the scene data in a state machine-esque way meaning, apart form the <code>image</code> function, other function setup will stay inside the registry until a new setting is defined.</p>
+<pre tabindex="0"><code>dimension 5 5
+
+index 0 0
+light 1 
+wall 1 0 1 1
+image_top 0.jpg
+image_left 1.jpg
+image_right 2.jpg
+build_room
+</code></pre><h3 id="batching-logic">Batching Logic<a hidden class="anchor" aria-hidden="true" href="#batching-logic">#</a></h3>
 <h4 id="simplified-flow-of-loading-and-assigning-textures">Simplified flow of Loading and Assigning textures<a hidden class="anchor" aria-hidden="true" href="#simplified-flow-of-loading-and-assigning-textures">#</a></h4>
-<ul>
-<li>When loading up a scene, the texture will be loaded into the Batch manager.</li>
-<li>The batch manager will then generate the texture and assign them IDs based on the capacity of each batch.</li>
-<li>The texture is then assigned to the newly created material for the scene.</li>
-<li>For each mesh using this material, they will have the same material ID assigned to them.</li>
-</ul>
+<ol>
+<li>When loading up a scene, the textures will passed into the Batch manager one by one.</li>
+<li>The textures are assigned Unique IDs based on the batch&rsquo;s capacity.</li>
+<li>Material are then created with the texture_id assigned as well as setup for <code>specular</code>, <code>diffuse</code>, <code>ambient</code>, <code>shininess</code>, and <code>is_emittor</code> field for use in Blinn-Phong shading model.</li>
+<li>Each mesh in the scene is then assigned with the generated material_id.</li>
+</ol>
 <p>※ Note that for all default, non-user defined textures also follows this logic.</p>
 <h4 id="batching-meshes">Batching meshes<a hidden class="anchor" aria-hidden="true" href="#batching-meshes">#</a></h4>
-<ul>
-<li>Meshes with the same Material will be sent to the same batches stored under a vector.</li>
-<li>Before the scene drawing loop starts, each batches will undergo a stage called, build scene.</li>
-<li>During this stage, each mesh&rsquo;s vertices, normals, texture coordinates, material ids information are combined and built into separated buffers</li>
-<li>Point light positions and material ids are also batched to be sent via uniforms.</li>
-</ul>
+<ol>
+<li>Meshes using the same Material will be sent to the same batches</li>
+<li>Before the scene drawing loop routine begins, each batches will undergo a build stage.
+<ol>
+<li>All Mesh data (vertices, normal, UV coordinates, material_id) in the scene are combined and stored in the same buffer based on mesh data types.</li>
+<li>Light information and material information are prepared for use as uniforms.</li>
+</ol>
+</li>
+</ol>
 <h4 id="draw-loop">Draw Loop<a hidden class="anchor" aria-hidden="true" href="#draw-loop">#</a></h4>
+<p>For each batch</p>
+<ol>
+<li>Bind mesh information (vertex, normals, UVs, material_id) buffers.</li>
+<li>Upload point light and material data as uniforms.</li>
+<li>Bind textures to the texture unit. The texture can now be used in the fragment shader using the texture_id stored inside the material_id.</li>
+<li>Use vertex and fragment shaders to render the scene with Blinn-Phong shading model.</li>
+<li>Repeat until all batches are drawn then proceeds to the next frame</li>
+</ol>
+<h3 id="custom-libraries">Custom Libraries<a hidden class="anchor" aria-hidden="true" href="#custom-libraries">#</a></h3>
+<h4 id="1-lin_alg">1. lin_alg<a hidden class="anchor" aria-hidden="true" href="#1-lin_alg">#</a></h4>
+<p>A lightweighted math library for</p>
 <ul>
-<li>Each batch binds the buffers of mesh information such as vertex and normals.</li>
-<li>Send in Light and material data as uniforms and bind textures that is used in the batch&rsquo;s material to the correct slot.</li>
-<li>The texture, material, mesh information is then used in the vertex and fragment shaders to draw the scene using blinn-phong shading model.</li>
-<li>The scene then proceeds to the next batch until all batches are drawn once</li>
-<li>Afterwards the draw loop starts again.</li>
+<li>Custom matrix and vector types.</li>
+<li>MVP (Model View Projection) matrix calculations</li>
+<li>Basic linear algebra functions for graphics programming application such as translate, scale, rotate</li>
+</ul>
+<h4 id="2-simple_scene">2. simple_scene<a hidden class="anchor" aria-hidden="true" href="#2-simple_scene">#</a></h4>
+<p>A scene management and OpenGL wrapper library providing</p>
+<ul>
+<li>Scene Components: Camera, Light, Material, Texture, Shader management logic.</li>
 </ul>
 
 
@@ -242,6 +285,9 @@ This educational project focuses on the topic of rendering optimization through 
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://maythaswang.github.io/tags/opengl/">OpenGL</a></li>
+      <li><a href="https://maythaswang.github.io/tags/optimization/">Optimization</a></li>
+      <li><a href="https://maythaswang.github.io/tags/tools/">Tools</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://maythaswang.github.io/posts/003_texture_patisserie/">
@@ -255,7 +301,7 @@ This educational project focuses on the topic of rendering optimization through 
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Image Gallery Builder - Simple Scene Building tool for OpenGL on x"
-            href="https://x.com/intent/tweet/?text=Image%20Gallery%20Builder%20-%20Simple%20Scene%20Building%20tool%20for%20OpenGL&amp;url=https%3a%2f%2fmaythaswang.github.io%2fposts%2f004_image_gallery_builder%2f&amp;hashtags=">
+            href="https://x.com/intent/tweet/?text=Image%20Gallery%20Builder%20-%20Simple%20Scene%20Building%20tool%20for%20OpenGL&amp;url=https%3a%2f%2fmaythaswang.github.io%2fposts%2f004_image_gallery_builder%2f&amp;hashtags=OpenGL%2cOptimization%2cTools">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

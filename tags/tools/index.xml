@@ -15,5 +15,12 @@
       <guid>https://maythaswang.github.io/posts/003_texture_patisserie/</guid>
       <description>Blender Add-on for streamling the process of baking and exporting PBR textures.</description>
     </item>
+    <item>
+      <title>Image Gallery Builder - Simple Scene Building tool for OpenGL</title>
+      <link>https://maythaswang.github.io/posts/004_image_gallery_builder/</link>
+      <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/posts/004_image_gallery_builder/</guid>
+      <description>Perform rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. Designed for an image gallery scene building tool.</description>
+    </item>
   </channel>
 </rss>
