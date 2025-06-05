@@ -79,8 +79,13 @@
     <loc>https://maythaswang.github.io/tags/blender/</loc>
     <lastmod>2025-05-02T22:12:31+07:00</lastmod>
   </url><url>
+    <loc>https://maythaswang.github.io/tags/pipeline/</loc>
+    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
+  </url><url>
     <loc>https://maythaswang.github.io/tags/tools/</loc>
     <lastmod>2025-05-02T22:12:31+07:00</lastmod>
+  </url><url>
+    <loc>https://maythaswang.github.io/about/</loc>
   </url><url>
     <loc>https://maythaswang.github.io/archives/</loc>
     <xhtml:link
@@ -92,18 +97,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://maythaswang.github.io/archives/"
-                />
-  </url><url>
-    <loc>https://maythaswang.github.io/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://maythaswang.github.io/ja/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maythaswang.github.io/categories/"
                 />
   </url>
 </urlset>

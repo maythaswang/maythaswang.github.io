@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tools on Blog</title>
-    <link>https://maythaswang.github.io/tags/tools/</link>
-    <description>Recent content in Tools on Blog</description>
+    <title>Pipeline on Blog</title>
+    <link>https://maythaswang.github.io/tags/pipeline/</link>
+    <description>Recent content in Pipeline on Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 May 2025 22:12:31 +0700</lastBuildDate>
-    <atom:link href="https://maythaswang.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maythaswang.github.io/tags/pipeline/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Texture Patisserie - Blender Texture Baking Addon</title>
       <link>https://maythaswang.github.io/posts/003_texture_patisserie/</link>
       <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
       <guid>https://maythaswang.github.io/posts/003_texture_patisserie/</guid>
       <description>Blender Add-on designed to streamline the process of baking and exporting materials as PBR textures in just a few clicks. Designed for tasks such as baking and exporting texture atlases.</description>
-    </item>
-    <item>
-      <title>Image Gallery Builder - Simple Scene Building tool for OpenGL</title>
-      <link>https://maythaswang.github.io/posts/004_image_gallery_builder/</link>
-      <pubDate>Fri, 02 May 2025 22:12:31 +0700</pubDate>
-      <guid>https://maythaswang.github.io/posts/004_image_gallery_builder/</guid>
-      <description>Perform rendering optimization through batching draw calls in a Custom OpenGL Rasterization Engine using Blinn-Phong Shading model. Designed as an image gallery scene building tool.</description>
     </item>
   </channel>
 </rss>
