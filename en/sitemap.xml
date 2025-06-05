@@ -17,9 +17,55 @@
   </url><url>
     <loc>https://maythaswang.github.io/posts/002_fishies_ocean/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/posts/002_fishies_ocean/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/posts/002_fishies_ocean/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/posts/003_texture_patisserie/</loc>
-    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
+    <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/posts/003_texture_patisserie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/posts/003_texture_patisserie/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/tags/add-on/</loc>
+    <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/add-on/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/add-on/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/tags/blender/</loc>
+    <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/blender/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/blender/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
@@ -36,12 +82,42 @@
   </url><url>
     <loc>https://maythaswang.github.io/tags/environment/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/environment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/environment/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/hlsl/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/hlsl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/hlsl/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/niagara/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/niagara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/niagara/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/optimization/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
@@ -67,6 +143,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://maythaswang.github.io/tags/particle-system/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/tags/pipeline/</loc>
+    <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/pipeline/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/pipeline/"
                 />
   </url><url>
     <loc>https://maythaswang.github.io/tags/post-processing/</loc>
@@ -121,8 +210,31 @@
                 href="https://maythaswang.github.io/tags/"
                 />
   </url><url>
+    <loc>https://maythaswang.github.io/tags/tools/</loc>
+    <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/tools/"
+                />
+  </url><url>
     <loc>https://maythaswang.github.io/tags/unreal-engine-5/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/unreal-engine-5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/unreal-engine-5/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/compute-shaders/</loc>
     <lastmod>2025-06-02T22:11:31+07:00</lastmod>
@@ -149,18 +261,6 @@
                 hreflang="en"
                 href="https://maythaswang.github.io/tags/opengl/"
                 />
-  </url><url>
-    <loc>https://maythaswang.github.io/tags/add-on/</loc>
-    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
-  </url><url>
-    <loc>https://maythaswang.github.io/tags/blender/</loc>
-    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
-  </url><url>
-    <loc>https://maythaswang.github.io/tags/pipeline/</loc>
-    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
-  </url><url>
-    <loc>https://maythaswang.github.io/tags/tools/</loc>
-    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
   </url><url>
     <loc>https://maythaswang.github.io/about/</loc>
     <xhtml:link

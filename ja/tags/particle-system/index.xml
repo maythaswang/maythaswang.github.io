@@ -6,7 +6,7 @@
     <description>Recent content in Particle System on Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 Jun 2025 22:11:31 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:12:31 +0700</lastBuildDate>
     <atom:link href="https://maythaswang.github.io/ja/tags/particle-system/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>宇宙のシミュレーション - N体シミュレーション</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
       <guid>https://maythaswang.github.io/ja/posts/001_n-body-simulation/</guid>
       <description>リアルタイム重力N体シミュレーター - OpenGLグラフィックスパイプライン及びGLSLコンピュートシェーダーによる加速</description>
+    </item>
+    <item>
+      <title>スタイライズ海洋エンバイロメント - Unreal Engine 5</title>
+      <link>https://maythaswang.github.io/ja/posts/002_fishies_ocean/</link>
+      <pubDate>Mon, 02 Jun 2025 22:12:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/posts/002_fishies_ocean/</guid>
+      <description>UE5で波・ウォーターエフェクト・WPOアニメーション・Niagara Particle 魚群を用いてスタイライズ海洋エンバイロメンの制作</description>
     </item>
   </channel>
 </rss>
