@@ -6,6 +6,49 @@
     <description>Recent content in Tags on Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>ja</language>
+    <lastBuildDate>Mon, 02 Jun 2025 22:11:31 +0700</lastBuildDate>
     <atom:link href="https://maythaswang.github.io/ja/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compute Shaders</title>
+      <link>https://maythaswang.github.io/ja/tags/compute-shaders/</link>
+      <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/tags/compute-shaders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenGL</title>
+      <link>https://maythaswang.github.io/ja/tags/opengl/</link>
+      <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/tags/opengl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>https://maythaswang.github.io/ja/tags/optimization/</link>
+      <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Particle System</title>
+      <link>https://maythaswang.github.io/ja/tags/particle-system/</link>
+      <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/tags/particle-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post-Processing</title>
+      <link>https://maythaswang.github.io/ja/tags/post-processing/</link>
+      <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/tags/post-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RealTime</title>
+      <link>https://maythaswang.github.io/ja/tags/realtime/</link>
+      <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/tags/realtime/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

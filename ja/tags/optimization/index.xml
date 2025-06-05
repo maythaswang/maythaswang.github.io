@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Optimization on Blog</title>
+    <link>https://maythaswang.github.io/ja/tags/optimization/</link>
+    <description>Recent content in Optimization on Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 Jun 2025 22:11:31 +0700</lastBuildDate>
+    <atom:link href="https://maythaswang.github.io/ja/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>宇宙のシミュレーション - N体シミュレーション</title>
+      <link>https://maythaswang.github.io/ja/posts/001_n-body-simulation/</link>
+      <pubDate>Mon, 02 Jun 2025 22:11:31 +0700</pubDate>
+      <guid>https://maythaswang.github.io/ja/posts/001_n-body-simulation/</guid>
+      <description>リアルタイム重力N体シミュレーター - OpenGLグラフィックスパイプライン及びGLSLコンピュートシェーダーによる加速</description>
+    </item>
+  </channel>
+</rss>

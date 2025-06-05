@@ -4,14 +4,21 @@
   <url>
     <loc>https://maythaswang.github.io/posts/001_n-body-simulation/</loc>
     <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/posts/001_n-body-simulation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/posts/001_n-body-simulation/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/posts/002_fishies_ocean/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
   </url><url>
     <loc>https://maythaswang.github.io/posts/003_texture_patisserie/</loc>
-    <lastmod>2025-05-02T22:12:31+07:00</lastmod>
-  </url><url>
-    <loc>https://maythaswang.github.io/posts/004_image_gallery_builder/</loc>
     <lastmod>2025-05-02T22:12:31+07:00</lastmod>
   </url><url>
     <loc>https://maythaswang.github.io/</loc>
@@ -38,18 +45,68 @@
   </url><url>
     <loc>https://maythaswang.github.io/tags/optimization/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/optimization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/optimization/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/particle-system/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/particle-system/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/particle-system/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/post-processing/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/post-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/post-processing/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/posts/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/posts/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/realtime/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/realtime/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/realtime/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/</loc>
     <lastmod>2025-06-02T22:12:31+07:00</lastmod>
@@ -69,9 +126,29 @@
   </url><url>
     <loc>https://maythaswang.github.io/tags/compute-shaders/</loc>
     <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/compute-shaders/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/compute-shaders/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/opengl/</loc>
     <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/opengl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/opengl/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/tags/add-on/</loc>
     <lastmod>2025-05-02T22:12:31+07:00</lastmod>
@@ -86,6 +163,16 @@
     <lastmod>2025-05-02T22:12:31+07:00</lastmod>
   </url><url>
     <loc>https://maythaswang.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/about/"
+                />
   </url><url>
     <loc>https://maythaswang.github.io/archives/</loc>
     <xhtml:link

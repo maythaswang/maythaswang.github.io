@@ -2,6 +2,136 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://maythaswang.github.io/ja/posts/001_n-body-simulation/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/posts/001_n-body-simulation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/posts/001_n-body-simulation/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/tags/compute-shaders/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/compute-shaders/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/compute-shaders/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/tags/opengl/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/opengl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/opengl/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/tags/optimization/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/optimization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/optimization/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/tags/particle-system/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/particle-system/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/particle-system/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/tags/post-processing/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/post-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/post-processing/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/posts/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/posts/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/tags/realtime/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/realtime/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/realtime/"
+                />
+  </url><url>
+    <loc>https://maythaswang.github.io/ja/tags/</loc>
+    <lastmod>2025-06-02T22:11:31+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maythaswang.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://maythaswang.github.io/ja/tags/"
+                />
+  </url><url>
     <loc>https://maythaswang.github.io/ja/archives/</loc>
     <xhtml:link
                 rel="alternate"
@@ -14,28 +144,16 @@
                 href="https://maythaswang.github.io/ja/archives/"
                 />
   </url><url>
-    <loc>https://maythaswang.github.io/ja/</loc>
+    <loc>https://maythaswang.github.io/ja/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://maythaswang.github.io/"
+                href="https://maythaswang.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://maythaswang.github.io/ja/"
-                />
-  </url><url>
-    <loc>https://maythaswang.github.io/ja/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maythaswang.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://maythaswang.github.io/ja/tags/"
+                href="https://maythaswang.github.io/ja/about/"
                 />
   </url>
 </urlset>
