@@ -1,0 +1,16 @@
+var searchData=
+[
+  ['databasemanager_0',['DatabaseManager',['../class_file_integrity_validator_1_1_infrastructure_1_1_database_1_1_database_manager.html',1,'FileIntegrityValidator.Infrastructure.Database.DatabaseManager'],['../class_file_integrity_validator_1_1_infrastructure_1_1_database_1_1_database_manager.html#a06ebb4e73cd007f3878075f892f9a2b0',1,'FileIntegrityValidator.Infrastructure.Database.DatabaseManager.DatabaseManager()']]],
+  ['deleterecordsasync_1',['DeleteRecordsAsync',['../class_file_integrity_validator_1_1_infrastructure_1_1_database_1_1_database_manager.html#aff6e15dfdf4cf99edfea762ee3c2a1d9',1,'FileIntegrityValidator::Infrastructure::Database::DatabaseManager']]],
+  ['diffentry_2',['DiffEntry',['../class_file_integrity_validator_1_1_core_1_1_models_1_1_diff_entry.html',1,'FileIntegrityValidator::Core::Models']]],
+  ['diffreader_3',['DiffReader',['../class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_diff_reader.html',1,'FileIntegrityValidator.Infrastructure.FileIO.DiffReader'],['../class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_diff_reader.html#a3dc2e72109a65fd13719c068f085ffb9',1,'FileIntegrityValidator.Infrastructure.FileIO.DiffReader.DiffReader()']]],
+  ['diffwriter_4',['DiffWriter',['../class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_diff_writer.html',1,'FileIntegrityValidator.Infrastructure.FileIO.DiffWriter'],['../class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_diff_writer.html#aecabdfe7d6c4e94874333275301abd24',1,'FileIntegrityValidator.Infrastructure.FileIO.DiffWriter.DiffWriter()']]],
+  ['dispose_5',['Dispose',['../class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_json_file_writer.html#a9a8be5b48a8abf0dd1656fec05acc756',1,'FileIntegrityValidator::Infrastructure::FileIO::JsonFileWriter']]],
+  ['documentations_6',['Code Documentations',['../index.html#autotoc_md6',1,'']]],
+  ['dup_20scan_201_7',['dup-scan(1)',['../index.html#autotoc_md13',1,'']]],
+  ['duplicatefilerecordloader_8',['DuplicateFileRecordLoader',['../class_file_integrity_validator_1_1_core_1_1_services_1_1_duplicate_file_record_loader.html',1,'FileIntegrityValidator::Core::Services']]],
+  ['duplicatescanasync_9',['DuplicateScanAsync',['../class_file_integrity_validator_1_1_core_1_1_services_1_1_duplicate_scanner.html#a97bbc950519297c8d06064dbdb11e03e',1,'FileIntegrityValidator::Core::Services::DuplicateScanner']]],
+  ['duplicatescancommandinput_10',['DuplicateScanCommandInput',['../class_file_integrity_validator_1_1_core_1_1_models_1_1_duplicate_scan_command_input.html',1,'FileIntegrityValidator::Core::Models']]],
+  ['duplicatescanner_11',['DuplicateScanner',['../class_file_integrity_validator_1_1_core_1_1_services_1_1_duplicate_scanner.html',1,'FileIntegrityValidator.Core.Services.DuplicateScanner'],['../class_file_integrity_validator_1_1_core_1_1_services_1_1_duplicate_scanner.html#abdabccb53c78b45d08feadbada1581ba',1,'FileIntegrityValidator.Core.Services.DuplicateScanner.DuplicateScanner()']]],
+  ['duplicatescanoptions_12',['DuplicateScanOptions',['../class_file_integrity_validator_1_1_cli_1_1_options_1_1_duplicate_scan_options.html',1,'FileIntegrityValidator::Cli::Options']]]
+];

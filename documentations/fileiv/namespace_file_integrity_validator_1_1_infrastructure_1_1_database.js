@@ -1,0 +1,4 @@
+var namespace_file_integrity_validator_1_1_infrastructure_1_1_database =
+[
+    [ "DatabaseManager", "class_file_integrity_validator_1_1_infrastructure_1_1_database_1_1_database_manager.html", "class_file_integrity_validator_1_1_infrastructure_1_1_database_1_1_database_manager" ]
+];

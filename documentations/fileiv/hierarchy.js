@@ -1,0 +1,36 @@
+var hierarchy =
+[
+    [ "FileIntegrityValidator.Core.Models.ApplyCommandInput", "class_file_integrity_validator_1_1_core_1_1_models_1_1_apply_command_input.html", null ],
+    [ "FileIntegrityValidator.Cli.Options.ApplyOptions", "class_file_integrity_validator_1_1_cli_1_1_options_1_1_apply_options.html", null ],
+    [ "FileIntegrityValidator.Infrastructure.Database.DatabaseManager", "class_file_integrity_validator_1_1_infrastructure_1_1_database_1_1_database_manager.html", null ],
+    [ "FileIntegrityValidator.Core.Models.DiffEntry", "class_file_integrity_validator_1_1_core_1_1_models_1_1_diff_entry.html", null ],
+    [ "FileIntegrityValidator.Infrastructure.FileIO.DiffReader", "class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_diff_reader.html", null ],
+    [ "FileIntegrityValidator.Infrastructure.FileIO.DiffWriter", "class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_diff_writer.html", null ],
+    [ "FileIntegrityValidator.Core.Services.DuplicateFileRecordLoader", "class_file_integrity_validator_1_1_core_1_1_services_1_1_duplicate_file_record_loader.html", null ],
+    [ "FileIntegrityValidator.Core.Models.DuplicateScanCommandInput", "class_file_integrity_validator_1_1_core_1_1_models_1_1_duplicate_scan_command_input.html", null ],
+    [ "FileIntegrityValidator.Core.Services.DuplicateScanner", "class_file_integrity_validator_1_1_core_1_1_services_1_1_duplicate_scanner.html", null ],
+    [ "FileIntegrityValidator.Cli.Options.DuplicateScanOptions", "class_file_integrity_validator_1_1_cli_1_1_options_1_1_duplicate_scan_options.html", null ],
+    [ "FileIntegrityValidator.Core.Models.FileHashSearchRecord", "class_file_integrity_validator_1_1_core_1_1_models_1_1_file_hash_search_record.html", null ],
+    [ "FileIntegrityValidator.Core.Services.FileRecordLoader", "class_file_integrity_validator_1_1_core_1_1_services_1_1_file_record_loader.html", null ],
+    [ "FileIntegrityValidator.Core.Services.FileRecordSearcher", "class_file_integrity_validator_1_1_core_1_1_services_1_1_file_record_searcher.html", null ],
+    [ "FileIntegrityValidator.Core.Services.FileScanner", "class_file_integrity_validator_1_1_core_1_1_services_1_1_file_scanner.html", null ],
+    [ "FileIntegrityValidator.Core.Services.FileTraverser", "class_file_integrity_validator_1_1_core_1_1_services_1_1_file_traverser.html", null ],
+    [ "FileIntegrityValidator.Infrastructure.Hashing.HashGenerator", "class_file_integrity_validator_1_1_infrastructure_1_1_hashing_1_1_hash_generator.html", null ],
+    [ "FileIntegrityValidator.Core.Models.IBaseRecord", "interface_file_integrity_validator_1_1_core_1_1_models_1_1_i_base_record.html", [
+      [ "FileIntegrityValidator.Core.Models.FileRecord", "class_file_integrity_validator_1_1_core_1_1_models_1_1_file_record.html", null ],
+      [ "FileIntegrityValidator.Core.Models.FileRecordNoHash", "class_file_integrity_validator_1_1_core_1_1_models_1_1_file_record_no_hash.html", null ],
+      [ "FileIntegrityValidator.Core.Models.FileRecordNoName", "class_file_integrity_validator_1_1_core_1_1_models_1_1_file_record_no_name.html", null ]
+    ] ],
+    [ "FileIntegrityValidator.Infrastructure.FileIO.JsonFileWriter", "class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_json_file_writer.html", null ],
+    [ "FileIntegrityValidator.Core.Models.NameSearchRecord", "class_file_integrity_validator_1_1_core_1_1_models_1_1_name_search_record.html", null ],
+    [ "FileIntegrityValidator.Cli.ArgumentParsers.PathArgumentParser", "class_file_integrity_validator_1_1_cli_1_1_argument_parsers_1_1_path_argument_parser.html", null ],
+    [ "FileIntegrityValidator.Infrastructure.FileIO.PathValidator", "class_file_integrity_validator_1_1_infrastructure_1_1_file_i_o_1_1_path_validator.html", null ],
+    [ "FileIntegrityValidator.Cli.CommandBuilders.RootCommandBuilder", "class_file_integrity_validator_1_1_cli_1_1_command_builders_1_1_root_command_builder.html", null ],
+    [ "FileIntegrityValidator.Cli.Options.RootOptions", "class_file_integrity_validator_1_1_cli_1_1_options_1_1_root_options.html", null ],
+    [ "FileIntegrityValidator.Core.Models.ScanCommandInput", "class_file_integrity_validator_1_1_core_1_1_models_1_1_scan_command_input.html", null ],
+    [ "FileIntegrityValidator.Cli.Options.ScanOptions", "class_file_integrity_validator_1_1_cli_1_1_options_1_1_scan_options.html", null ],
+    [ "FileIntegrityValidator.Core.Models.SearchCommandInput", "class_file_integrity_validator_1_1_core_1_1_models_1_1_search_command_input.html", null ],
+    [ "FileIntegrityValidator.Core.Services.SearchFileParser", "class_file_integrity_validator_1_1_core_1_1_services_1_1_search_file_parser.html", null ],
+    [ "FileIntegrityValidator.Cli.Options.SearchOptions", "class_file_integrity_validator_1_1_cli_1_1_options_1_1_search_options.html", null ],
+    [ "FileIntegrityValidator.Core.Models.TraversalRequest", "class_file_integrity_validator_1_1_core_1_1_models_1_1_traversal_request.html", null ]
+];
